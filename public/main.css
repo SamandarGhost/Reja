@@ -1,0 +1,901 @@
+
+
+.frame {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 228, 228);
+}
+
+.main_frame {
+    position: relative;
+    width: 1440px;
+    height: 1312px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 239, 245);
+}
+
+/* Main_framening left_frame va uni ichidagi bo'limlari */
+.left_frame {
+    position: relative;
+    width: 305px;
+    height: 1312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(252, 252, 252);
+}
+
+.left_marginer {
+    position: relative;
+    width: 220px;
+    height: 0px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    margin-top: 39px;
+    border: solid rgb(240, 239, 245);
+}
+
+.left-1 {
+    position: relative;
+    width: 228px;
+    height: 253px;
+    margin-top: 50px;
+    margin-left: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    /* background-color: aqua; */
+}
+/* left-1ning ichidagi name/profession/iconlar */
+
+.left-name {
+    position: relative;
+    width: 64px;
+    height: 20.85px;
+    text-transform: capitalize;
+  
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+
+    color: black;
+}
+
+.left-profession {
+    position: relative;
+    width: 224px;
+    height: 22px;
+    text-transform: capitalize;
+}
+
+.left-icons {
+    position: relative;
+    width: 228px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.link_href {
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    position: relative;
+    width: auto;
+    height: 22px;
+    border-radius: 50%;
+    filter: drop-shadow(0 4px 4px rgb(0,0,0,.25));
+}
+/* /left-1ning ichidagi name/profession/iconlar */
+
+
+
+/* left-2ning age/residence/freelance/adress malumotlar */
+
+.left-2-colorleft {
+    background-color: rgb(237, 179, 41);
+}
+.availablecolor{
+    color: rgb(144, 184, 77);
+}
+
+.left-2 {
+    position: relative;
+    width: 221px;
+    height: 126px;
+    margin-left: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+.left-2-1 {
+    position: relative;
+    width: 220px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* /left-2ning age/residence/freelance/adress malumotlar */
+
+
+/* left-3ning language/line/yellow inside line */
+.left-3 {
+    position: relative;
+    width: 220px;
+    height: 153px;
+    margin-left: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    /* background-color: aqua; */
+}
+
+.languages {
+    position: relative;
+    width: 95px;
+    height: 22px;
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: large;
+    white-space: nowrap;
+}
+
+.left-3-language {
+    position: relative;
+    width: 220px;
+    height: 24px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: capitalize;
+    color: rgb(117, 117, 117);
+}
+
+.left-3-languageline {
+    position: relative;
+    width: 220px;
+    height: 5px;
+    text-align: start;
+    border: 0.5px solid rgb(237, 179, 41);
+    border-radius: 2em;
+}
+
+.left-3-languageline-y1 {
+    position: relative;
+    width: 98%;
+    height: 2px;
+    margin: 1px;
+    background-color: rgb(237, 179, 41);
+    border-radius: 1em;
+}
+
+.left-3-languageline-y2 {
+    position: relative;
+    width: 80%;
+    height: 2px;
+    margin: 1px;
+    background-color: rgb(237, 179, 41);
+    border-radius: 1em;
+}
+.left-3-languageline-y3 {
+    position: relative;
+    width: 60%;
+    height: 2px;
+    margin: 1px;
+    background-color: rgb(237, 179, 41);
+    border-radius: 1em;
+}
+
+/* /left-3ning language/line/yellow inside line */
+
+
+/* left-4ning skills/ html/css/js/php/wordpress valuelari */
+.left-4 {
+    position: relative;
+    width: 220px;
+    height: 242px;
+    margin-left: 37px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+.left-4-skills {
+    position: relative;
+    width: 45px;
+    height: 22px;
+    margin-bottom: 5px;
+    text-align: start;
+    font-weight: 500;
+    font-size: large;
+    white-space: nowrap;
+}
+
+.left-4-code {
+    position: relative;
+    width: 220px;
+    height: 24px;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    color: rgb(117, 117, 117);
+    text-transform: capitalize;
+}
+
+.left-4-codeline {
+    position: relative;
+    width: 220px;
+    height: 5px;
+    text-align: start;
+    border: 0.5px solid rgb(237, 179, 41);
+    border-radius: 2em;
+}
+
+.left-4-codeline-y1 {
+    position: relative;
+    width: 90%;
+    height: 2px;
+    margin: 1px;
+    background-color: rgb(237, 179, 41);
+    border-radius: 1em;
+}
+
+.left-4-codeline-y2 {
+    position: relative;
+    width: 85%;
+    height: 2px;
+    margin: 1px;
+    background-color: rgb(237, 179, 41);
+    border-radius: 1em;
+}
+
+.left-4-codeline-y3 {
+    position: relative;
+    width: 80%;
+    height: 2px;
+    margin: 1px;
+    background-color: rgb(237, 179, 41);
+    border-radius: 1em;
+}
+
+.left-4-codeline-y4 {
+    position: relative;
+    width: 75%;
+    height: 2px;
+    margin: 1px;
+    background-color: rgb(237, 179, 41);
+    border-radius: 1em;
+}
+
+.left-4-codeline-y5 {
+    position: relative;
+    width: 80%;
+    height: 2px;
+    margin: 1px;
+    background-color: rgb(237, 179, 41);
+    border-radius: 1em;
+}
+
+/* /left-4ning skills/ html/css/js/php/wordpress valuelari */
+
+
+/* left-5ning Extra Skills va 4 ta valuesi */
+.left-5 {
+    position: relative;
+    width: 186px;
+    height: 148px;
+    margin-left: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-5-extra_skills {
+    position: relative;
+    width: 94px;
+    height: 22px;
+    text-align: start;
+    font-weight: 500;
+    font-size: large;
+    white-space: nowrap;
+}
+
+.left-5-1 {
+    position: relative;
+    width: 186px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-5-2 {
+    position: relative;
+    width: 157px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-5-3 {
+    position: relative;
+    width: 186px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-5-4 {
+    position: relative;
+    width: 139px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.extra-skills-icon {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.left-5-colorword {
+    color: rgb(117, 117, 117);
+    text-transform: capitalize;
+}
+/* /left-5ning Extra Skills va 4 ta valuesi */
+
+
+/* /Main_framening left_frame va uni ichidagi bo'limlari */
+
+/* Midd framening main-midd-frame va second-midd-frame bolimlari */
+.midd_frame {
+    position: relative;
+    width: 970px;
+    height: 1259px;
+    margin-left: 30px;
+    margin-right: 27px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Main-midd-framening title/ paragraph/ button/ image valuelari */
+
+/* Ellipse elements */
+
+.ellipse1 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 40px;
+    top: 22px;
+}
+
+.ellipse2 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 521px;
+    top: 43px;
+}
+
+.kvadrat3 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 53px;
+    top: 60px;
+}
+
+.ellipse4 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 88px;
+    bottom: 42px;
+}
+
+.kvadrat5 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 374px;
+    bottom: 126px;
+}
+
+.ellipse6 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 396px;
+    bottom: 81px;
+}
+
+.trio3 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 32px;
+    bottom: 37px;
+}
+
+/* /Ellipse elements */
+
+
+.main_midd-frame {
+    position: relative;
+    width: 971px;
+    height: 454.33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    background-color: rgb(255, 255, 255);
+}
+
+.main_midd-paragraph {
+    position: relative;
+    width: 580px;
+    height: 332px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.main_midd-title {
+    position: relative;
+    width: 500px;
+    height: 60px;
+    margin-left: 30px;
+    top: 20px;
+    text-align: start;
+}
+
+.main_midd-titlefont {
+    font-weight: bold;
+}
+
+.main_midd-p {
+    position: relative;
+    width: 424px;
+    height: 85px;
+    margin-left: 30px;
+    text-align: start;
+    text-transform: capitalize;
+}
+
+.main_midd-button {
+    position: relative;
+    width: 154px;
+    height: 50px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+} 
+
+.main_midd-btn {
+    position: relative;
+    width: 154px;
+    height: 50px;
+    bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    background-color: rgb(237, 179, 41);
+    border-radius: 0.5em;
+    border: 0px;
+}
+.main_midd-btn-icon {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.main_midd-image {
+    position: relative;
+    width: 326px;
+    height: 466px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* /Main-midd-framening title/ paragraph/ button/ image valuelari */
+
+
+/* Second-midd-framening title va service icon bolimlari  */
+
+.second_midd-frame {
+    position: relative;
+    width: 970px;
+    height: 616px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second_midd-head {
+    position: relative;
+    width: 438px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.second_midd-title {
+    position: relative;
+    width: 193px;
+    height: 38px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.second_midd-paragraph{
+    position: relative;
+    width: 438px;
+    height: 65px;
+    text-transform: capitalize;
+    color: rgb(117, 117, 117);
+}
+
+.second_midd-service {
+    position: relative;
+    width: 970px;
+    height: 465px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.second_midd-service-1 {
+    position: relative;
+    width: 310px;
+    height: 212.25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb( 255, 255, 255);
+}
+
+.midd-margin-1 {
+    margin-bottom: 10px;
+    margin-top: 18px;
+}
+
+.midd-margin-2 {
+    margin-top: 10px;
+}
+
+.second_midd-web-1 {
+    position: relative;
+    width: 68px;
+    height: 65px; 
+}
+
+.second_midd-web-2 {
+    position: relative;
+    width: 158px;
+    height: 21px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.second_midd-web-3 {
+    position: relative;
+    width: 134px;
+    height: 23px; 
+    white-space: nowrap;
+    color: rgb(117, 117, 117);
+}
+
+.second_midd-design-1 {
+    position: relative;
+    width: 68px;
+    height: 65px; 
+}
+
+.second_midd-design-2 {
+    position: relative;
+    width: 115px;
+    height: 21px; 
+    margin-top: 17px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.second_midd-design-3 {
+    position: relative;
+    width: 200px;
+    height: 23px; 
+    white-space: nowrap;
+    color: rgb(117, 117, 117);
+}
+
+.second_midd-sound-1 {
+    position: relative;
+    width: 74px;
+    height: 70px; 
+}
+
+.second_midd-sound-2 {
+    position: relative;
+    width: 120px;
+    height: 21px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.second_midd-sound-3 {
+    position: relative;
+    width: 175px;
+    height: 23px; 
+    white-space: nowrap;
+    color: rgb(117, 117, 117);
+}
+
+.second_midd-game-1 {
+    position: relative;
+    width: 74px;
+    height: 70px; 
+    text-align: center;
+}
+
+.second_midd-game-2 {
+    position: relative;
+    width: 115px;
+    height: 21px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.second_midd-game-3 {
+    position: relative;
+    width: 246px;
+    height: 23px; 
+    white-space: nowrap;
+    color: rgb(117, 117, 117);
+}
+
+.second_midd-photo-1 {
+    position: relative;
+    width: 74px;
+    height: 70px; 
+}
+
+.second_midd-photo-2 {
+    position: relative;
+    width: 115px;
+    height: 21px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.second_midd-photo-3 {
+    position: relative;
+    width: 246px;
+    height: 23px; 
+    color: rgb(117, 117, 117);
+}
+
+.second_midd-adv-2 {
+    position: relative;
+    width: 99px;
+    height: 21px; 
+    font-weight: 500;
+}
+
+.second_midd-adv-3 {
+    position: relative;
+    width: 260px;
+    height: 74px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(117, 117, 117);
+}
+
+.second_midd-order {
+    position: relative;
+    width: 86px;
+    height: 19px;
+    white-space: nowrap;
+} 
+
+.order {
+    color: rgb(237, 179, 41);
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+
+/* /Second-midd-framening title va service icon bolimlari  */
+/* /Midd framening main-midd-frame va second-midd-frame bolimlari */
+
+
+/* Right framening night va Touch bar qismi */
+.right_frame {
+    position: relative;
+    width: 108px;
+    height: 1312px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+}
+
+.right_frame-container1 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.right_frame-night {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.right_frame-container2 {
+    position: relative;
+    width: 65px;
+    height: 439px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_frame-cont2-pophome {
+    position: relative;
+    width: 65px;
+    height: 78px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pophome{
+    position: relative;
+    width: 65px;
+    height: 33px;
+}
+
+.right_frame-cont2-doc {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 239, 245);
+    border-radius: 50%;
+}
+
+.right_frame-cont2-student {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 239, 245);
+    border-radius: 50%;
+}
+
+.right_frame-cont2-portfoliobag {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 239, 245);
+    border-radius: 50%;
+}
+
+.right_frame-cont2-blog {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 239, 245);
+    border-radius: 50%;
+}
+
+.right_frame-cont2-contact {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 239, 245);
+    border-radius: 50%;
+}
+
+
+
+
+/* /Right framening night va Touch bar qismi */

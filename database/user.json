@@ -1,0 +1,23 @@
+{
+    "btn": ["HIRE", "HERE"],
+    "name": "Sam",
+    "profession": "Software Engineer",
+    "age": 21,
+    "residence": "S.Korea",
+    "freelance": "Available",
+    "adress": "Seoul in S.Korea",
+    "languages": ["Uzbek", "Korean", "English"],
+    "languagepr": ["100%","80%", "60%"],
+    "skills": ["HTML", "CSS", "JS", "NodeJS", "Python"],
+    "skillspr": ["90%", "85%", "80%", "75%", "85%"],
+    "extra_skills": ["BootsTrap, Materialize", "Styling, SASS", "Django, Flask", "GIT Knowledge"],
+    "work_place": "IT Company, Seoul in South Korea",
+    "about_me": "Hi, Everyone. I Am Sam And Student Of Seojeong University. I Am Learning Frontend And Backend. It Is Sooo Hard, But I Enjoy This, Because This Is Very Interesting Knowledge In The World! Okey, It Is Just Start One Sentence - Hello World!",
+    "service": ["My Services", "Mening Servisim"],
+    "service_title": "Assalamu Alaykum! Hurmatli Mijoz Bu Bizning Siz Uchun Maxsus Servislarimiz!",
+    "service_desc": [ "Web Development", "UX/UI Design", "Sound Design", "Game Design", "Photograpy", "Advertising" ],
+    "service_value": ["Blog, E-Commerce", "Mobile App, Website Design", "Voice Over, Beat Making", "Character Design, Props & Objects", "Portrait, Product Photograpy"],
+    "adv": ["Agar sizga bizning servislarimiz maqul bo'lsa, ORDER tugmasini bosishingiz mumkin!", "ORDER NOW >"]
+    
+
+}
