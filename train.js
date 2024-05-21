@@ -6,17 +6,17 @@
   
 //   console.log(count('a', 'avtomexanizatsiya')); // 4
 
-function InWord(letter, word) {
-    let count = 0;
-    for (let i = 0; i < word.length; i++) {
-      if (word[i] === letter) {
-        count++;
+function sozichida(harf, soz) {
+    let hisobla = 0;
+    for (let z = 0; z < soz.length; z++) {
+      if (soz[z] === harf) {
+        hisobla++;
       }
     }
-    return count;
+    return hisobla;
   }
   
-  console.log(InWord('a', 'mamlakat')); // 3
+  console.log(Isozichida('a', 'mamlakat')); // 3
 
 
 // // const setTimeout = require("setTimeOut");
