@@ -1,46 +1,64 @@
 // console.log("TRAIN AREA!");
 // A - TASK
+// function count(z, x) {
+//     return x.split(z).length -1;
+//   }
+  
+//   console.log(count('a', 'avtomexanizatsiya')); // 4
 
-// const setTimeout = require("setTimeOut");
-console.log("Jack Ma maslahatlari!");
-
-const list = [
-    "Yaxshi talaba bo'ling!",  // 0-20
-    "To'gri boshliq tanlang va Ko'proq xaton qiling!",  // 20-30
-    "O'zingizga ishlashni boshlang!",  // 30-40
-    "Siz kuchli bo'lgan narslarni qiling",  // 40-50
-    "Yoshlarga investitsiya qiling",  // 50-60
-    "Endi dam oling, Foydasi yo'q"  // 60
-];
-
-// define via CALLBACK function
-function maslahatBering(a, callback) {
-    if (typeof a !== "number") callback("insert a number", null);
-    else if (a <= 20) callback(null, list[0]);
-    else if (a > 20 && a <= 30) callback(null, list[1]);
-    else if (a > 30 && a <= 40) callback(null, list[2]);
-    else if (a > 40 && a <= 50) callback(null, list[3]);
-    else if (a > 50 && a <= 60) callback(null, list[4]);
-    else {
-        setInterval(function () {
-            callback(null, list[5]);
-        }, 1000);
-
-        // setTimeout(function () {
-        //     callback(null, list[5]);
-        // }, 4000);
+function InWord(letter, word) {
+    let count = 0;
+    for (let i = 0; i < word.length; i++) {
+      if (word[i] === letter) {
+        count++;
+      }
     }
-};
+    return count;
+  }
+  
+  console.log(InWord('a', 'mamlakat')); // 3
 
-// call via CALLBACK function
-console.log("passed here 0");
-maslahatBering(65, (err, data) => {
-    if (err) console.log("ERROR:", err);
-    else {
-        console.log("javob:", data);
-    }
-});
-console.log("passed here 1");
+
+// // const setTimeout = require("setTimeOut");
+// console.log("Jack Ma maslahatlari!");
+
+// const list = [
+//     "Yaxshi talaba bo'ling!",  // 0-20
+//     "To'gri boshliq tanlang va Ko'proq xaton qiling!",  // 20-30
+//     "O'zingizga ishlashni boshlang!",  // 30-40
+//     "Siz kuchli bo'lgan narslarni qiling",  // 40-50
+//     "Yoshlarga investitsiya qiling",  // 50-60
+//     "Endi dam oling, Foydasi yo'q"  // 60
+// ];
+
+// // define via CALLBACK function
+// function maslahatBering(a, callback) {
+//     if (typeof a !== "number") callback("insert a number", null);
+//     else if (a <= 20) callback(null, list[0]);
+//     else if (a > 20 && a <= 30) callback(null, list[1]);
+//     else if (a > 30 && a <= 40) callback(null, list[2]);
+//     else if (a > 40 && a <= 50) callback(null, list[3]);
+//     else if (a > 50 && a <= 60) callback(null, list[4]);
+//     else {
+//         setInterval(function () {
+//             callback(null, list[5]);
+//         }, 1000);
+
+//         // setTimeout(function () {
+//         //     callback(null, list[5]);
+//         // }, 4000);
+//     }
+// };
+
+// // call via CALLBACK function
+// console.log("passed here 0");
+// maslahatBering(65, (err, data) => {
+//     if (err) console.log("ERROR:", err);
+//     else {
+//         console.log("javob:", data);
+//     }
+// });
+// console.log("passed here 1");
 
 // call via then/catch
 // console.log("passed here 0");
