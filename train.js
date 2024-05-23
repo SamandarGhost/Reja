@@ -1,22 +1,63 @@
 // console.log("TRAIN AREA!");
-// A - TASK
-// function count(z, x) {
-//     return x.split(z).length -1;
+
+// B - TASK
+
+let name = "";
+let top = 0;
+
+for(let i = 0; i < name.length; i++) {
+  if(name[i] == Number) {
+     top++;
+  }
+  return top;
+}
+console.log(name("kgdjfajfsa1234"))
+
+
+
+// function raqamniTop() {
+// const items = 0;
+// const copyItems = 0;
+// for (let i = Number; i < items.length; i++) {
+//   if(items[i] === copyItems) {
+//     return copyItems++;
+//   }
+// }
+// return copyItems;
+// }
+// console.log(raqamniTop("123sfckj"));
+
+// after
+// items.forEach((item) => {
+//   copyItems.push(item);
+// });
+
+
+
+
+// console.log(raqamniTop("kajfdliug734jhvsfkjg"));
+
+
+
+
+// // A - TASK
+// // function count(z, x) {
+// //     return x.split(z).length -1;
+// //   }
+  
+// //   console.log(count('a', 'avtomexanizatsiya')); // 4
+
+// function sozichida(harf, soz) {
+//     let hisobla = 0;
+//     for (let z = 0; z < soz.length; z++) {
+//       if (soz[z] === harf) {
+//         hisobla++;
+//       }
+//     }
+//     return hisobla;
 //   }
   
-//   console.log(count('a', 'avtomexanizatsiya')); // 4
-
-function sozichida(harf, soz) {
-    let hisobla = 0;
-    for (let z = 0; z < soz.length; z++) {
-      if (soz[z] === harf) {
-        hisobla++;
-      }
-    }
-    return hisobla;
-  }
-  
-  console.log(Isozichida('a', 'mamlakat')); // 3
+//   console.log(Isozichida('a', 'mamlakat')); // 3
 
 
 // // const setTimeout = require("setTimeOut");
