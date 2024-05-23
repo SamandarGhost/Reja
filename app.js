@@ -1,17 +1,19 @@
 console.log("Web Serverni boshlash");
 const express = require("express");
 const app = express();
-const http = require("http");
 const fs = require("fs");
 
+// MongoDB call
+const db = require("./server").db();
+
 let user;
-fs.readFile("database/user.json", "utf8", (err, data) => {
-    if (err) {
-        console.log("ERROR:", err);
-    } else {
-        user =JSON.parse(data);
-    }
-});
+// fs.readFile("database/user.json", "utf8", (err, data) => {
+//     if (err) {
+//         console.log("ERROR:", err);
+//     } else {
+//         user =JSON.parse(data);
+//     }
+// });
 
 
 // 1: Kirish code
@@ -30,16 +32,30 @@ app.get('/author', (req, res) => {
 });
 
 app.post("/create-item", (req,res) => {
-    console.log(req);
-    res.json({test: "success"});  
+   console.log(req.body);
+   const new_reja = req.body.reja;
+   db.collection("plans").insertOne({reja:new_reja }, (err, data) => {
+    if(err) {
+        console.log(err);
+        res.end("something went wrong");
+    } else {
+        res.end("successfully added");
+    }
+   });
+   res.end("success");
 });
 
 app.get("/", function (req, res) {
+    db.collection("plans").find().toArray((err, data) => {
+        if(err) {
+            console.log(err);
+            res.end("something went wrong");
+        } else {
+            console.log(data);
+            res.render("reja");
+        }
+    })
     res.render("reja");
 });
 
-const server = http.createServer(app);
-let PORT = 3000;
-server.listen(PORT, function() {
-    console.log(`The server is running successfully on port: ${PORT}, http://localhost:${PORT}`);
-});
+module.exports = app;
