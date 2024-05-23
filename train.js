@@ -1,37 +1,37 @@
 // console.log("TRAIN AREA!");
 
 // B - TASK
+function raqamniTop() {
+const items = 0;
+const copyItems = 0;
+for (let i = 0; i < items.length; i++) {
+  if(items[i] == 1) {
+    return copyItems++;
 
-let name = "";
-let top = 0;
+  }if(items[i] == 2) {
+    return copyItems++;
 
-for(let i = 0; i < name.length; i++) {
-  if(name[i] == Number) {
-     top++;
+  }if(items[i] == 3) {
+    return copyItems++;
+  }if(items[i] == 4) {
+    return copyItems++;
+  }if(items[i] == 5) {
+    return copyItems++;
+  }if(items[i] == 6) {
+    return copyItems++;
+  }if(items[i] == 7) {
+    return copyItems++;
+  }if(items[i] == 8) {
+    return copyItems++;
+  }if(items[i] == 9) {
+    return copyItems++;
+  }if(items[i] == 0) {
+    return copyItems++;
   }
-  return top;
 }
-console.log(name("kgdjfajfsa1234"))
-
-
-
-// function raqamniTop() {
-// const items = 0;
-// const copyItems = 0;
-// for (let i = Number; i < items.length; i++) {
-//   if(items[i] === copyItems) {
-//     return copyItems++;
-//   }
-// }
-// return copyItems;
-// }
-// console.log(raqamniTop("123sfckj"));
-
-// after
-// items.forEach((item) => {
-//   copyItems.push(item);
-// });
-
+return copyItems;
+}
+console.log(raqamniTop("asd123"));
 
 
 
