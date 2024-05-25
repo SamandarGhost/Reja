@@ -1,37 +1,47 @@
 // console.log("TRAIN AREA!");
 
 // B - TASK
-function raqamniTop() {
-const items = 0;
-const copyItems = 0;
-for (let i = 0; i < items.length; i++) {
-  if(items[i] == 1) {
-    return copyItems++;
+// function raqamniTop() {
+// const items = 0;
+// const copyItems = 0;
+// for (let i = 0; i < items.length; i++) {
+//   if(items[i] == 1) {
+//     return copyItems++;
 
-  }if(items[i] == 2) {
-    return copyItems++;
+//   }if(items[i] == 2) {
+//     return copyItems++;
 
-  }if(items[i] == 3) {
-    return copyItems++;
-  }if(items[i] == 4) {
-    return copyItems++;
-  }if(items[i] == 5) {
-    return copyItems++;
-  }if(items[i] == 6) {
-    return copyItems++;
-  }if(items[i] == 7) {
-    return copyItems++;
-  }if(items[i] == 8) {
-    return copyItems++;
-  }if(items[i] == 9) {
-    return copyItems++;
-  }if(items[i] == 0) {
-    return copyItems++;
+//   }if(items[i] == 3) {
+//     return copyItems++;
+//   }if(items[i] == 4) {
+//     return copyItems++;
+//   }if(items[i] == 5) {
+//     return copyItems++;
+//   }if(items[i] == 6) {
+//     return copyItems++;
+//   }if(items[i] == 7) {
+//     return copyItems++;
+//   }if(items[i] == 8) {
+//     return copyItems++;
+//   }if(items[i] == 9) {
+//     return copyItems++;
+//   }if(items[i] == 0) {
+//     return copyItems++;
+//   }
+// }
+// return copyItems;
+// }
+// console.log(raqamniTop("asd123"));
+function raqam(d) {
+let c = 0;
+for(let i = 0; i < d.length; i++ ) {
+  if(d[i] = Number) {
+    console.log(c++);
   }
 }
-return copyItems;
+return c;
 }
-console.log(raqamniTop("asd123"));
+console.log(raqam("asd123"));
 
 
 
