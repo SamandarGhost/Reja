@@ -1,18 +1,52 @@
 // console.log("TRAIN AREA!");
 
-// B - TASk
+// C - TASK
 
-function raqam(a) {
-  let hisobla = 0;
-  for(let i = 0; i <= a.length; i++) {
-    if(a[i] >= 0) {
-      hisobla++;
+const date = new Date();
+const hour = date.getHours();
+const min = date.getMinutes();
+class Shop {
+    
+    constructor(qoldiq, sotuv, qabul) {
+      this.qoldiq = qoldiq;
+      this.sotuv = sotuv;
+      this.qabul = qabul;
     }
-  }
-  return hisobla;
+
+    product() {
+          console.log(`${this.qoldiq}`);
+          console.log(hour,min);
+    }
+
+    sale() {
+          console.log(`${this.sotuv}`);
+          console.log(hour,min);
+    }
+
+    deliver() {
+        console.log(`${this.qabul}`);
+        if(`${this.qoldiq}` >= 0) {
+          console.log(hour,min);
+        }
+    }
 }
 
-console.log(raqam("asd123"));
+const shop = new Shop(1,2,3);
+shop.deliver();
+
+// // B - TASk
+
+// function raqam(a) {
+//   let hisobla = 0;
+//   for(let i = 0; i <= a.length; i++) {
+//     if(a[i] >= 0) {
+//       hisobla++;
+//     }
+//   }
+//   return hisobla;
+// }
+
+// console.log(raqam("asd123"));
 
 
 
