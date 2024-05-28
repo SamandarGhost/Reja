@@ -1,38 +1,53 @@
 // console.log("TRAIN AREA!");
 
-// C - TASK
+// D - TASK
 
-const date = new Date();
-const hour = date.getHours();
-const min = date.getMinutes();
-class Shop {
-    
-    constructor(qoldiq, sotuv, qabul) {
-      this.qoldiq = qoldiq;
-      this.sotuv = sotuv;
-      this.qabul = qabul;
-    }
+function birXil(a,b) {
 
-    product() {
-          console.log(`${this.qoldiq}`);
-          console.log(hour,min);
-    }
+let i = a.split("").sort().join("");
+let z = b.split("").sort().join("");
 
-    sale() {
-          console.log(`${this.sotuv}`);
-          console.log(hour,min);
-    }
-
-    deliver() {
-        console.log(`${this.qabul}`);
-        if(`${this.qoldiq}` >= 0) {
-          console.log(hour,min);
-        }
-    }
+if (i === z) {
+  console.log(true);
+} else {
+  console.log(false);
 }
+}
+birXil("eshit", "ishte");
 
-const shop = new Shop(1,2,3);
-shop.deliver();
+// // C - TASK
+
+// const date = new Date();
+// const hour = date.getHours();
+// const min = date.getMinutes();
+// class Shop {
+    
+//     constructor(qoldiq, sotuv, qabul) {
+//       this.qoldiq = qoldiq;
+//       this.sotuv = sotuv;
+//       this.qabul = qabul;
+//     }
+
+//     product() {
+//           console.log(`${this.qoldiq}`);
+//           console.log(hour,min);
+//     }
+
+//     sale() {
+//           console.log(`${this.sotuv}`);
+//           console.log(hour,min);
+//     }
+
+//     deliver() {
+//         console.log(`${this.qabul}`);
+//         if(`${this.qoldiq}` >= 0) {
+//           console.log(hour,min);
+//         }
+//     }
+// }
+
+// const shop = new Shop(1,2,3);
+// shop.deliver();
 
 // // B - TASk
 
