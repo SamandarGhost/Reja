@@ -1,19 +1,37 @@
 // console.log("TRAIN AREA!");
 
-// D - TASK
+// E - TASK
 
-function birXil(a,b) {
 
-let i = a.split("").sort().join("");
-let z = b.split("").sort().join("");
+function teskari(a) {
 
-if (i === z) {
-  console.log(true);
-} else {
-  console.log(false);
+  const b =  a.split("");
+
+  const c = b.reverse("");
+
+  const z = c.join("");
+
+  return z;
 }
-}
-birXil("eshit", "ishte");
+
+console.log(teskari("apple"));
+
+
+
+// // D - TASK
+
+// function birXil(a,b) {
+
+// let i = a.split("").sort().join("");
+// let z = b.split("").sort().join("");
+
+// if (i === z) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+// }
+// birXil("eshit", "ishte");
 
 // // C - TASK
 
