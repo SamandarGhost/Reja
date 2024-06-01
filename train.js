@@ -1,20 +1,34 @@
 // console.log("TRAIN AREA!");
+// F - TASK
 
-// E - TASK
-
-
-function teskari(a) {
-
-  const b =  a.split("");
-
-  const c = b.reverse("");
-
-  const z = c.join("");
-
-  return z;
+function ikki(a) {
+  const b = a.split("").filter((ele, index, self) => {
+  const c = self.indexOf(ele);
+  const d = self.lastIndexOf(ele);
+  return c!== d;
+});
+if (b.length >= 2) {
+  console.log(true);
+  }
 }
+ikki("hello");
 
-console.log(teskari("apple"));
+
+// // E - TASK
+
+
+// function teskari(a) {
+
+//   const b =  a.split("");
+
+//   const c = b.reverse("");
+
+//   const z = c.join("");
+
+//   return z;
+// }
+
+// console.log(teskari("apple"));
 
 
 
