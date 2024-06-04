@@ -1,17 +1,32 @@
 // console.log("TRAIN AREA!");
-// F - TASK
 
-function ikki(a) {
-  const b = a.split("").filter((ele, index, self) => {
-  const c = self.indexOf(ele);
-  const d = self.lastIndexOf(ele);
-  return c!== d;
-});
-if (b.length >= 2) {
-  console.log(true);
+// G -TASK
+
+function Katta(a) {
+const kattaIndex = a.reduce((kattaIndex, son, index) => {
+  if (son > a[kattaIndex]) {
+    return index;
   }
+  return kattaIndex;
+}, 0);
+return kattaIndex;
 }
-ikki("hello");
+
+console.log(Katta([1, 2, 3, 4, 5, 5, 5, 1, 6, 6]));
+
+// // F - TASK
+
+// function ikki(a) {
+//   const b = a.split("").filter((ele, index, self) => {
+//   const c = self.indexOf(ele);
+//   const d = self.lastIndexOf(ele);
+//   return c!== d;
+// });
+// if (b.length >= 2) {
+//   console.log(true);
+//   }
+// }
+// ikki("hello");
 
 
 // // E - TASK
