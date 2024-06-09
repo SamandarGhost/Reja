@@ -1,18 +1,53 @@
 // console.log("TRAIN AREA!");
 
-// G -TASK
+// // H2 - TASK
 
-function Katta(a) {
-const kattaIndex = a.reduce((kattaIndex, son, index) => {
-  if (son > a[kattaIndex]) {
-    return index;
-  }
-  return kattaIndex;
-}, 0);
-return kattaIndex;
-}
+// let b: string;
 
-console.log(Katta([1, 2, 3, 4, 5, 5, 5, 1, 6, 6]));
+// function faqatRaqam(b: string): string {
+//     const raqam: string[] = [];
+//     const a = b.split("");
+//     for( let  i = 0; i <= a.length; i++) {
+//         if(!isNaN(Number(a[i]))) {
+//          raqam.push(a[i]);
+//         }
+//     }
+//     return raqam.join("");
+// }
+
+// console.log(faqatRaqam("salom123qalesan?321"));
+
+// // H - TASK
+
+// let a: number[];
+
+// function plus(a: number[]) {
+//     const musbat: number[] = [];
+//     for (let i = 0; i <=a.length; i++) {
+//         if(a[i] > 0) {
+//             musbat.push(a[i]);
+//         }
+//     }
+//     const b =  musbat.toString();
+//     // const b =  musbat.join("");
+//     return b;
+// }
+
+// console.log(plus([1, -7, 2, 3, 4, -9, 5, 6, -1, -5]));
+
+// // G -TASK
+
+// function Katta(a) {
+// const kattaIndex = a.reduce((kattaIndex, son, index) => {
+//   if (son > a[kattaIndex]) {
+//     return index;
+//   }
+//   return kattaIndex;
+// }, 0);
+// return kattaIndex;
+// }
+
+// console.log(Katta([1, 2, 3, 4, 5, 5, 5, 1, 6, 6]));
 
 // // F - TASK
 
