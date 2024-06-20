@@ -1,5 +1,21 @@
 // console.log("TRAIN AREA!");
 
+// // MIT TASK - J
+
+// function engUzuni(a: string): string {
+//     const lugat = a.split(' ');
+//     let uzuni = '';
+  
+//     for (const soz of lugat) {
+//       if (soz.length > uzuni.length) {
+//         uzuni = soz;
+//       }
+//     }
+//     return uzuni;
+//   }
+  
+//   console.log(engUzuni("Hi I am SAMANDAR and I am 21 years old"));
+
 // function engKopi(a: number[]): number | undefined {
 //     const b: { [key: number]: number } = {};
   
