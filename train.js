@@ -1,5 +1,22 @@
 // console.log("TRAIN AREA!");
 
+//  MIT TASK - K
+
+// function unlilar(str: string): number {
+//     const unli = 'aeiou';
+//     let count = 0;
+  
+//     for (const ele of str.toLowerCase()) {
+//       if (unli.includes(ele)) {
+//         count++;
+//       }
+//     }
+  
+//     return count;
+//   }
+  
+//   console.log(unlilar("Salom Dunyo"));
+
 // // MIT TASK - J
 
 // function engUzuni(a: string): string {
