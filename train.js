@@ -1,5 +1,35 @@
 // console.log("TRAIN AREA!");
 
+// //  MIT TASK - P
+
+// function arrayga(obj: { [key: string]: any }): [string, any][] {
+//     return Object.entries(obj);
+//   }
+  
+//   console.log(arrayga({a: 10, b: 20})); 
+
+
+// // MIT Taks - O
+
+// function faqatRaqamniQosh(a: any[]) {
+//     let hammasi = 0;
+//     for (let b = 0; b < a.length; b++) {
+//       if (typeof a[b] === 'number') {
+//         hammasi += a[b];
+//       }
+//     }
+//     return hammasi;
+//   }
+  
+//   console.log(faqatRaqamniQosh([10, "string", true, null, 20]));
+// // MIT Taks - N
+// function palindrom(a: string) {
+//     const b = a.split("").reverse().join("");
+//     return a === b;
+//   }
+
+// console.log(palindrom("true"));
+
 // MIT Task - M
 // function a(array) {
 //     let newarr:Object[] = [];
