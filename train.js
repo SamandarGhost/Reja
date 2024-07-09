@@ -1,5 +1,35 @@
 // console.log("TRAIN AREA!");
 
+// MIT TASK - R
+
+// function yigindi(a: string): number {
+//   const [b, c] = a.split('+');
+//   return parseInt(b) + parseInt(c);
+// }
+
+// console.log(yigindi("1+2"));
+
+// function calculate(a: string): number {
+//     const b = a.split('+');
+//     return parseInt(b[0]) + parseInt(b[1]);
+
+// }
+
+// console.log(calculate("2+3"));
+
+// // MIT Task - Q
+
+// function findKeyInObj(a: object, b: string): boolean {
+//     for (let key in a) {
+//         if (key === b) {
+//             return true;
+//         }
+//       }
+//         return false;
+//     }
+
+// console.log(findKeyInObj({name: "Sam", age: 12}, "name"));
+
 // //  MIT TASK - P
 
 // function arrayga(obj: { [key: string]: any }): [string, any][] {
